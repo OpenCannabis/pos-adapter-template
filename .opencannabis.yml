@@ -1,0 +1,11 @@
+apiVersion: adapter.ocpx.info/v1alpha1
+kind: PointOfSaleAdapter
+metadata:
+  name: adapter-sample
+  version: 1.0.0
+  annotations:
+    adapter.ocpx.info/dialects: 'json,csv,protobin,prototxt'
+provider:
+  name: Cool POS Company
+  website: https://coolpos.com
+  identifier: did:ocpx:actors::vbiab08e8u93
